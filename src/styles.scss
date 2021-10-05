@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+.wrapper {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+.app-data-table {
+    margin: 20px auto;
+}
+.dataPickerForm {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .filterBtn {
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.87);
+    }
+}
